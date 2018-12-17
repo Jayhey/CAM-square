@@ -17,7 +17,7 @@
 
 EDA.ipynb는 시각화 및 doc2vec 코드가 포함되어 있습니다.
 
-```python
+```console
 python XGBoost_GPU.py 
 python CAM_CNN.py 
 ```
@@ -33,7 +33,7 @@ CAM_CNN.py를 실행하면 graph와 result 폴더가 생성됩니다. result 폴
 graph 폴더에는 모델과 텐서플로우를 통해 추출한 summary 값들(loss와 accuracy)가 저장됩니다. 
 또한 embedding 된 값들에 PCA와 t-sne 를 적용할 수 있습니다. 텐서보드 명령어는 다음과 같습니다.
 
-```python
+```console
 tensorboard --logdir="./graph/"
 ```
 
