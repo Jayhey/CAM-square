@@ -40,5 +40,5 @@ tensorboard --logdir="./graph/"
 
 모델의 전체적인 모양은 다음과 같습니다.
 
-![graph](./assets/graph.png)
+![graph](https://github.com/Jayhey/CAM-square/blob/master/assets/graph.PNG)
 
